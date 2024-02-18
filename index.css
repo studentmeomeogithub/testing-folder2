@@ -1,0 +1,68 @@
+
+.container2{
+    width: 150vh;
+    height: 150vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+
+
+.container{
+    border: 2px solid #0000ff;
+    border-radius: 10px;
+    width: 30%;
+    height: 30%;
+    background-color: blue; 
+    animation-name: bgc-change;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-iteration-count: 6;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    position: relative;
+
+    
+}
+@keyframes bgc-change {
+    
+    /* from{
+        background-color: aqua;
+        left: 0px;
+    }
+    to{
+        background-color: bisque;
+        left: 200px;
+    } */
+    0%{
+        background-color: black;
+        left: 0px; top: 0px;
+    }
+    25%{
+        background-color: rgb(175, 41, 85);
+        left: 200px; top: 0px;
+    }
+    50%{
+        background-color: rgb(253, 154, 23);
+        left: 0px; top: 200px;
+    }
+    100%{
+        background-color: rgb(213, 204, 222);
+        left: 200px; top: 200px;
+    }
+}
+@keyframes border-radius {
+    from{
+        border-radius: 10px;
+    }
+    to{
+       border-radius: 50px;
+    }
+    
+}
+
+
+
